@@ -7,6 +7,7 @@ Responsive and dynamic build with webpack, babel, and Sass. Frontend mentor <a h
 <img src="./preview.jpg">
 
 <h3><a href="">live preview</a></h3>
+
 ## Usage
 
 Download
