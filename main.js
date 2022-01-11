@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/main.scss */ \"./src/sass/main.scss\");\n/* harmony import */ var _images_bg_bottom_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/bg-bottom.svg */ \"./images/bg-bottom.svg\");\n/* harmony import */ var _images_bg_top_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/bg-top.svg */ \"./images/bg-top.svg\");\n\n\n\nvar img = document.querySelectorAll('img');\nvar input = document.querySelector('input');\nvar h2 = document.querySelectorAll('h2'); //all h2\n\nvar numbersAnnually = [199.99, 249.99, 399.99];\nvar numbersMonthly = [19.99, 24.99, 39.99];\ninput.addEventListener('change', function () {\n  if (input.checked) {\n    for (var i = 0; i < numbersMonthly.length; i++) {\n      h2[i].textContent = numbersMonthly[i];\n    }\n  } else {\n    for (var _i = 0; _i < numbersAnnually.length; _i++) {\n      h2[_i].textContent = numbersAnnually[_i];\n    }\n  }\n}); //loading img\n\nimg[0].setAttribute('src', _images_bg_top_svg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\nimg[1].setAttribute('src', _images_bg_bottom_svg__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n\n//# sourceURL=webpack://pricing-component-with-toggle-master/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/main.scss */ \"./src/sass/main.scss\");\n/* harmony import */ var _images_bg_bottom_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/bg-bottom.svg */ \"./images/bg-bottom.svg\");\n/* harmony import */ var _images_bg_top_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/bg-top.svg */ \"./images/bg-top.svg\");\n/* harmony import */ var _images_favicon_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/favicon.png */ \"./images/favicon.png\");\n\n\n\n\nvar img = document.querySelectorAll('img');\nvar input = document.querySelector('input');\nvar h2 = document.querySelectorAll('h2'); //all h2\n\nvar numbersAnnually = [199.99, 249.99, 399.99];\nvar numbersMonthly = [19.99, 24.99, 39.99];\ninput.addEventListener('change', function () {\n  if (input.checked) {\n    for (var i = 0; i < numbersMonthly.length; i++) {\n      h2[i].textContent = numbersMonthly[i];\n    }\n  } else {\n    for (var _i = 0; _i < numbersAnnually.length; _i++) {\n      h2[_i].textContent = numbersAnnually[_i];\n    }\n  }\n}); //loading img\n\nimg[0].setAttribute('src', _images_bg_top_svg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\nimg[1].setAttribute('src', _images_bg_bottom_svg__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n\n//# sourceURL=webpack://pricing-component-with-toggle-master/./src/index.js?");
 
 /***/ }),
 
@@ -37,6 +37,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"4980c1fd1180f71d57826caf727e057c.svg\");\n\n//# sourceURL=webpack://pricing-component-with-toggle-master/./images/bg-top.svg?");
+
+/***/ }),
+
+/***/ "./images/favicon.png":
+/*!****************************!*\
+  !*** ./images/favicon.png ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"736eae1ff09acfe04c50e0fb91172267.png\");\n\n//# sourceURL=webpack://pricing-component-with-toggle-master/./images/favicon.png?");
 
 /***/ }),
 
