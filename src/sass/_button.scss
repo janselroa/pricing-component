@@ -1,0 +1,29 @@
+label {
+    display: inline-block;
+    border-radius: 100px;
+    width: 70px;
+    height: 40px;
+    position: relative;
+    margin: auto;
+    margin-top: -10px;
+}
+
+label::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    border-radius: 100px;
+    left: 5px;
+    background-color: hsl(240, 78%, 98%);
+    transition: right, 0.5s;
+}
+
+input {
+    display: none;
+}
+
+input:checked~label::before {
+    left: 35px;
+}

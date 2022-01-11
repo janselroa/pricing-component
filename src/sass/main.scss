@@ -1,0 +1,65 @@
+@use 'section';
+@use 'button';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+$text-color:hsl(233,
+13%,
+49%);
+body {
+    overflow-x: hidden;
+    color: $text-color;
+    background-color: hsl(240, 78%, 98%);
+    font-family: 'Montserrat';
+}
+
+label {
+    background: section.$blue;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.bg-img {
+    position: absolute;
+    z-index: -1;
+}
+
+.top-img {
+    top: -50px;
+    right: -50px;
+}
+
+.bottom-img {
+    bottom: -40px;
+    left: -50px;
+}
+
+@media screen and (max-width:700px) {
+    .section-main {
+        margin: 30px 0;
+        transform: none;
+    }
+}
+
+.card-button {
+    display: flex;
+    width: 300px;
+    margin: 60px auto;
+    justify-content: center;
+}
