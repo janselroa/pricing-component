@@ -1,6 +1,7 @@
 import './sass/main.scss';
-import "../images/bg-bottom.svg";
-import "../images/bg-top.svg";
+import bottomImage from "../images/bg-bottom.svg";
+import topImage from "../images/bg-top.svg";
+const img = document.querySelectorAll('img');
 
 const input = document.querySelector('input');
 const h2 = document.querySelectorAll('h2') //all h2
@@ -20,3 +21,7 @@ input.addEventListener('change', () => {
         }
     }
 })
+
+//loading img
+img[0].setAttribute('src', topImage)
+img[1].setAttribute('src', bottomImage)
