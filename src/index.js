@@ -1,11 +1,11 @@
 import './sass/main.scss';
 import bottomImage from "../images/bg-bottom.svg";
 import topImage from "../images/bg-top.svg";
-const img = document.querySelectorAll('img');
+import favicon from "../images/favicon.png";
 
+const img = document.querySelectorAll('img');
 const input = document.querySelector('input');
 const h2 = document.querySelectorAll('h2') //all h2
-
 const numbersAnnually = [199.99, 249.99, 399.99]
 
 const numbersMonthly = [19.99, 24.99, 39.99]
