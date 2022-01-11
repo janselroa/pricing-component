@@ -20,8 +20,10 @@ yarn install
 ```
 
 ```cmd
-yarn webpack
+yarn webpack serve
 ```
+
+open <a href="http://localhost:3000">localhost:3000</a>
 
 ### npm
 
@@ -30,5 +32,5 @@ npm install
 ```
 
 ```cmd
-npx webpack
+npx webpack serve
 ```
